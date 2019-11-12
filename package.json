@@ -1,0 +1,27 @@
+{
+  "name": "vdom",
+  "version": "0.0.0",
+  "description": "A simple basic implement of virtual-dom algorithm",
+  "main": "rollup.config.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "vdom",
+    "virtual-dom"
+  ],
+  "dependencies": {
+    "@babel/preset-react": "^7.7.0",
+    "rollup": "^1.15.4",
+    "rollup-plugin-cleanup": "^3.1.1",
+    "rollup-plugin-license": "^0.9.0",
+    "rollup-plugin-uglify-es": "^0.0.1"
+  },
+  "author": "Lsong",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1"
+  }
+}
